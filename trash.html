@@ -1,0 +1,149 @@
+  <!-- <main>
+        <div class="main">
+            <div class="discount">
+                <h2 style="font-size:3rem;">Upto <span style="color: white;">50%</span> off</h2>
+                <button class="shop">Shop now</button>
+            </div>
+            <div class="books">
+                <div class="book">
+                    <img src="./images/book1.jpeg"  height="250px" alt="books">
+                    <p></p>
+                </div>
+                <div class="book">
+                    <img src="./images/book2.jpeg"  height="250px" alt="books">
+                    <p></p>
+                </div>
+                <div class="book">
+                    <img src="./images/book3.jpeg"  height="250px" alt="books">
+                    <p></p>
+                </div>
+                <table >
+                    <tr>
+                        <td><img src="./images/book1.jpeg"  height="150px" alt="books"></td>
+                        <td>
+                            <h3>a subtle art not giving a fuck</h3>
+                            <p>Summary. The Subtle Art of Not Giving a F*ck argues that individuals
+                                 should seek to find meaning through what they find to be important and only engage
+                                  in values that they can control. Values (such as popularity) that are not under a person's control are, 
+                                  according to the book, 'bad values'.</p>
+                        </td>
+                        <td>
+                            <p>price</p>
+                            <button>Add to cart</button>
+                            <button>wishlist</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/book2.jpeg"  height="150px" alt="books"></td>
+                        <td>
+                            <h3>attitude is everything</h3>
+                            <p>Attitude is Everything is a book based on Jeff Keller's journey of being a motivational speaker. 
+                                Being a lawyer, he was doing well, but something is amiss. He decides to make a gradual transition and 
+                                start working as a full-time motivational orator in 1992.</p>
+                        </td>
+                        <td>
+                            <p>Price</p>
+                            <button>Add to cart</button>
+                            <button>wishlist</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><img src="./images/book3.jpeg"  height="150px" alt="books"></td>
+                        <td>
+                            <h3>Killing a macking bird</h3>
+                            <p>To Kill a Mockingbird is a 1961 novel by Harper Lee. Set in small-town Alabama, 
+                                the novel is a bildungsroman, or coming-of-age story, and chronicles the childhood 
+                                of Scout and Jem Finch as their father Atticus defends a Black man falsely accused of rape. 
+                                Scout and Jem are mocked by classmates for this.</p></td>
+                        <td>
+                             <p>Price</p>
+                            <button>Add to cart</button>
+                            <button>wishlist</button>
+                            </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </main>
+    <hr> -->
+    <footer>
+        <div class="foot">
+            <div class="delivery">
+                <i class="fa-solid fa-truck-fast"></i>
+                <h3><span class="edit"><i>Free</i></span> <br>Shipping</h3>
+            </div>
+            <div class="payments">
+                <img src="./images/pay.png" width="60px" height="50px">
+                <h3><span style="color:rgb(47, 210, 47);font-weight: bolder;"><i>Secure</i></span><br> payments</h3>
+            </div>
+            <div class="help">
+                <img src="./images/help.png" width="60px" height="60px">
+                <h3>24/7 <br><span style="color:orangered;font-weight: bolder;"><i>support</i></span></h3>
+            </div>
+        </div>
+    </footer>
+    <h2></h2>
+  
+
+
+
+
+
+    
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:100px;
+}
+.delivery , .payments , .help{
+    display:flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.foot img{
+    border-radius: 40%;
+    backface-visibility: visible;
+}
+.edit{
+    color: blue;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    margin: 0%;
+    flex-wrap: wrap;
+}
+.discount{
+    flex: 20%;
+    background-color: #e26767;
+    padding: 50px;
+    float: left;
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10%;
+}
+.books{
+    flex: 60%;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+.shop{
+    background-color: black;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-size: 1rem;
+    text-align: center;
+    padding: 10px;
+}

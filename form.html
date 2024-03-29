@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login page</title>
+    <link rel="icon" href="./images/icon.png">
+    <link rel="stylesheet" href="form.css">
+    <style>
+        body{
+    height: 250px;
+    width: 1000px;
+    display: grid;
+    place-content: center;
+    margin-top: 260px;
+    margin-left:250px;
+    background-image: url(./images/form_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+form{
+    height: 400px;
+    width: 300px;
+    display: grid;
+    background-image: url(./images/form2_bg.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    place-content: center;
+    color: black;
+    border-radius: 20px;   
+}
+input{
+    height: 25px;
+    width: 220px;
+    border-radius: 12px;
+    display: grid;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+button{
+    height: 30px;
+    width:110px;
+    border-radius: 12px;
+    color:black;
+    background-color: white;
+    place-self: center;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+h2{
+    font-size: 34px;
+    display: grid;
+    place-content: center;
+}
+label{
+    font-weight: bold;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: 900;
+}
+a:hover{
+    color:blue;
+}
+button:hover{
+    height: 30px;
+    width:200px;
+    border-radius: 12px;
+    border-color: black;
+    color:white;
+    background-color: black;
+    font-weight: bolder;
+    margin-top: 10px;
+}
+    </style>
+</head>
+<body>
+        <form action="index.html">
+            <h2>Login</h2>
+            <label for="username">User:</label>
+            <input type="text" id="username" placeholder="Username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Password" required>
+            <a href="#">Forget password</a>
+            <button>Submit</button>
+            <p>Don't have an account ?<a href="#"> Register here</a></p>
+        </form>
+</body>
+</html>
